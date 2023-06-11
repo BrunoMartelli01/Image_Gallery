@@ -1,5 +1,5 @@
 # Image_Gallery API
-## How to use:
+## How to use: 
 ### create account:
   you can create account with a POST request on img-gallery.up.railway.app/users/register/ 
   with in the body (key:value) the key are:  email, date_of_birth, password, password2 
@@ -33,3 +33,8 @@
 
 ## example:
 ### authorizon:
+![image](https://github.com/BrunoMartelli01/Image_Gallery/assets/47886680/d59e5b0c-00f9-4a8a-bb5e-97515cd4495e)
+### login:
+![image](https://github.com/BrunoMartelli01/Image_Gallery/assets/47886680/5ed3ba99-c426-4330-b953-c79101fc437c)
+### upload_img:
+![image](https://github.com/BrunoMartelli01/Image_Gallery/assets/47886680/4bdd166a-6093-4baf-accd-81177636b6b2)
