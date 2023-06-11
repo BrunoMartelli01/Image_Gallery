@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2)0ta@gnvbo(+lbzm+e50ixrebd3zp)ovxu*e)cdz14nknieq)
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://img-gallery.up.railway.app ', 'http://localhost:8000']
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated test.
