@@ -53,7 +53,8 @@ INSTALLED_APPS = [
     'users',
     'images',
     'rest_framework',
-'whitenoise.runserver_nostatic',
+    'login_signUp',
+    'whitenoise.runserver_nostatic',
 
 ]
 
@@ -135,6 +136,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
