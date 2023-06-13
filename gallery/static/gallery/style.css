@@ -1,0 +1,74 @@
+body , html{
+  font-family: 'Raleway', sans-serif;
+      box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.bg-dark {
+  background-color: #105469 !important;
+}
+
+.nav-item:hover {
+  color: #E2B842 !important;
+}
+
+h1 {
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+footer, footer .container .col{
+  height: 200px; !important
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #105469;
+  color: white;
+  margin-bottom: 15px;
+	border-radius: 10px;
+  word-wrap: break-word;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;!important    /* altezza del footer */
+}
+
+
+#sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;
+/* altezza del footer */
+}

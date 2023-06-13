@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('images.urls')),
     path('', include('login_signUp.urls')),
     path('users/', include('users.urls')),
+    path('gallery/', include('gallery.urls')),
 ]

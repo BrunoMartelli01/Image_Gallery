@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <title>CodePen - Sign up / Login Form</title>
   <link rel="stylesheet" href="{% static 'login_signUp/style.css' %}">
-	<script src="{% static 'login_signUp/scripts.js' %}"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -23,7 +22,7 @@
     <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
     {{message}}
-</div>
+	</div>
  {% endfor %}
 	{% endif %}
 	{% block content %}
