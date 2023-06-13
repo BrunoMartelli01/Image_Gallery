@@ -23,7 +23,7 @@ import datetime
 SECRET_KEY = 'django-insecure-2)0ta@gnvbo(+lbzm+e50ixrebd3zp)ovxu*e)cdz14nknieq)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://img-gallery.up.railway.app', 'http://localhost:8000']
