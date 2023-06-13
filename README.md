@@ -32,6 +32,10 @@
    
 ## user interfece :
 you can also login and signup on  https://image-gallery.up.railway.app/ , you can see all your img and create a token  after a login on https://image-gallery.up.railway.app/gallery/
+# credential: 
+normal user test2@gmail.com password: ciao (in this account there are some img) 
+admin user admin@gmail.com password: admin
+
 
 ## example:
 ### authorizon:
